@@ -1,0 +1,8 @@
+C:\dev\babySitterKata\BabysittingCalculator\obj\Debug\netcoreapp2.2\BabysittingCalculator.csproj.CoreCompileInputs.cache
+C:\dev\babySitterKata\BabysittingCalculator\obj\Debug\netcoreapp2.2\BabysittingCalculator.AssemblyInfoInputs.cache
+C:\dev\babySitterKata\BabysittingCalculator\obj\Debug\netcoreapp2.2\BabysittingCalculator.AssemblyInfo.cs
+C:\dev\babySitterKata\BabysittingCalculator\bin\Debug\netcoreapp2.2\BabysittingCalculator.deps.json
+C:\dev\babySitterKata\BabysittingCalculator\bin\Debug\netcoreapp2.2\BabysittingCalculator.dll
+C:\dev\babySitterKata\BabysittingCalculator\bin\Debug\netcoreapp2.2\BabysittingCalculator.pdb
+C:\dev\babySitterKata\BabysittingCalculator\obj\Debug\netcoreapp2.2\BabysittingCalculator.dll
+C:\dev\babySitterKata\BabysittingCalculator\obj\Debug\netcoreapp2.2\BabysittingCalculator.pdb
