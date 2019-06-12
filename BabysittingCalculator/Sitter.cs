@@ -4,13 +4,38 @@ namespace BabysittingCalculator
 {
   public class Sitter
   {
-    public int CalculatePay(int hoursWorked, int hourlyRate)
+    public int CalculatePay(Family fam, int startTime, int endTime)
     {
-      int amountToPay;
+      int amountPaid = 0;
+      int earlyHoursWorked = 0;
+      int lateHoursWorked = 0;
 
-      amountToPay = hoursWorked * hourlyRate;
+      //calculate hours if babysitter worked during first time interval
+      if (startTime < fam.CutoffTime)
+      {
+        if (endTime > fam.CutoffTime)
+        {
+          earlyHoursWorked = fam.CutoffTime - startTime;
+        }
+        else
+        {
+          earlyHoursWorked = endTime - startTime;
+        }
+      }
 
-      return amountToPay;
+      if (endTime > fam.CutoffTime)
+      {
+        if (startTime < fam.CutoffTime)
+        {
+          lateHoursWorked = endTime - fam.CutoffTime;
+        }
+        else
+        {
+          lateHoursWorked = endTime - startTime;
+        }
+      }
+
+      return earlyHoursWorked * fam.EarlyPrice + lateHoursWorked * fam.LatePrice;
     }
   }
 }
